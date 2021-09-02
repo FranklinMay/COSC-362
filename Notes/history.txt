@@ -1,0 +1,149 @@
+    1  ls
+    2  xdg-user-dirs-update
+    3  pwd
+    4  ls
+    5  cd Documents/
+    6  mkdir COSC362
+    7  ls
+    8  cd COSC362/
+    9  mkdir Notes
+   10  cd Notes/
+   11  touch ClassNotes8-26_2021.txt
+   12  ls
+   13  nano ClassNotes8-26_2021.txt 
+   14  ls
+   15  cat ClassNotes8-26_2021.txt 
+   16  clear
+   17  ls
+   18  cat ClassNotes8-26_2021.txt 
+   19  cd ..
+   20  ls
+   21  mkdir JunkDir
+   22  cd COSC362/
+   23  ls
+   24  cd Notes/
+   25  ls
+   26  mov ClassNotes8-26_2021.txt 
+   27  mv ClassNotes8-26_2021.txt JunkDir
+   28  ls
+   29  cd JunkDir
+   30  cat JunkDir 
+   31  mc JunkDir ClassNotes8-26-2021.txt
+   32  mv JunkDir ClassNotes8-26-2021.txt
+   33  cd ..
+   34  ls
+   35  du
+   36  du -h
+   37  ls -a
+   38  nano bashrc
+   39  nano .bashrc
+   40  source .bashrc
+   41  dog 
+   42  dog .bashrc
+   43  cd Do
+   44  cd Documents/
+   45  cd COSC362/
+   46  cd Notes/
+   47  ls
+   48  dog ClassNotes8-26-2021.txt 
+   49  cat ClassNotes8-26-2021.txt 
+   50  clear
+   51  ;s
+   52  ls
+   53  cd ..
+   54  cd 
+   55  ls
+   56  history
+   57  clea
+   58  clear
+   59  whoami
+   60  ls
+   61  cd Documents/
+   62  cd COSC362/
+   63  cd Notes/
+   64  ls
+   65  echo ClassNotes8-26-2021.txt 
+   66  echo "Hello World"
+   67  mv ClassNotes8-26-2021.txt  Hello
+   68  ls
+   69  cat Hello 
+   70  cp Hello 
+   71  cp Hello Hello2
+   72  ls
+   73  cat Hello
+   74  dog Hello2
+   75  man cat
+   76  pwd
+   77  cat -vET
+   78  cat Hello -vET
+   79  cd ..
+   80  cd..
+   81  cd ..
+   82  ls
+   83  ls- a
+   84  ls -l
+   85  ls -a ls
+   86  history
+   87  nano .bashrc
+   88  alias move=cd
+   89  alias move into=cd
+   90  alias moveinto=cd
+   91  moveinto Documents/
+   92  echo cd COSC362/
+   93  echo cd "COSC362/"
+   94  du
+   95  cd ..
+   96  du
+   97  ls
+   98  du -a
+   99  du -l
+  100  du -e
+  101  du -h
+  102  cd Documents/
+  103  cd COSC362/
+  104  nano Numbers
+  105  tail -n 10 numbers
+  106  tail -n 10 
+  107  tail -n Numbers
+  108  tail -n 10 Numbers
+  109  head -n 10 Numbers
+  110  touch source
+  111  ls
+  112  cat source
+  113  ls -v
+  114  head -n -v 10 Numbers
+  115  head -n 10 Numbers -v
+  116  tail -n 10 Numbers -v
+  117  eit
+  118  exit
+  119  ls
+  120  ls -a
+  121  dog .bashrc
+  122  clear
+  123  nano .bashrc
+  124  source .bashrc
+  125  smalldog
+  126  nano .bashrc
+  127  source .bashrc
+  128  smalldog
+  129  ls
+  130  cd Documents/
+  131  ls
+  132  cd COSC362/
+  133  ls
+  134  cd Notes/
+  135  ls
+  136  smalldog
+  137  smalldog Hello
+  138  cd ..
+  139  ls
+  140  smalldog Numbers 
+  141  smalldog source
+  142  cd sou
+  143  cat source 
+  144  clear
+  145  ls
+  146  cd Notes/
+  147  ls
+  148  history
+  149  history > history.txt
